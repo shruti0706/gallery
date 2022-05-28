@@ -8,3 +8,29 @@ body{
     justify-content: space-between;
     margin: 5%;
 }
+
+
+
+
+
+
+
+/* footer-section */
+.fimage{
+width: 4%;
+padding-bottom: 3%;
+}
+
+.footer{
+text-align: center;
+color: #fff;
+background-color: #000000;
+line-height: 0.5rem;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+.copyright{
+color: #D1D1D1;
+font-size: 0.75rem;
+}
