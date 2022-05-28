@@ -19,13 +19,28 @@ body{
 }
 .aw-outer{
     background-color: rgba(240, 248, 255, 0.541);
-
-  
+height:50% ;
+width: 50%;
+display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .aw-inner{
-    background-color: #DFBD44;
-
+    background-color: #ffd24a;
+    border-radius: 13px;
+    background: linear-gradient(145deg, #e6bd43, #ffe14f);
+box-shadow:  7px 7px 14px #606366,
+             -7px -7px 14px #ffffff;
+    color: rgb(70, 70, 70);
+    height: 30%;
+    width: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
+}
+.aw-inner :active{
+    border-radius: 13px;
+    background: linear-gradient(145deg, #e6bd43, #ffe14f);
+box-shadow: inset 7px 7px 14px #66541e,
+            inset -7px -7px 14px #ffff76;
 }
