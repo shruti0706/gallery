@@ -1,0 +1,10 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(202, 203, 204);
+}
+.header-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5%;
+}
