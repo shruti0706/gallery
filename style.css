@@ -2,9 +2,30 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(202, 203, 204);
 }
-.header-title{
+.h-title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 5%;
+}
+.section{
+    height: 100vh;
+    width: 100wh;
+}
+.art-wall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aw-outer{
+    background-color: rgba(240, 248, 255, 0.541);
+
+  
+}
+.aw-inner{
+    background-color: #DFBD44;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
