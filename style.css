@@ -1,6 +1,11 @@
 body{
     font-family: 'Montserrat', sans-serif;
     /* background-color: rgb(202, 203, 204); */
+    margin:0;
+}
+.header{
+  background-image: url(/images/sarthak/s3.jpg);
+  background-repeat: no-repeat;
 }
 .h-title{
     display: flex;
@@ -14,6 +19,7 @@ body{
   width: 100wh;
 }
 .art-wall{
+  background-image: url(/images/ritu/r1.jpeg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,7 +45,7 @@ box-shadow:  7px 7px 14px #606366,
   align-items: center;
   display: flex;
 }
-.aw-inner :active{
+.aw-outer :active{
   border-radius: 13px;
   background: linear-gradient(145deg, #e6bd43, #ffe14f);
 box-shadow: inset 7px 7px 14px #66541e,
