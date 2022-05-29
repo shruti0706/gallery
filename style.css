@@ -9,6 +9,33 @@ body{
     margin: 5%;
 }
 
+/* Meet the artists */
+.img{
+  width: 100vh;
+  height: 100vw;
+
+background-image: url(/images/sarthak/bg3.jpeg);
+    background-size: cover;
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+
+  /* position: absolute; */
+  z-index: -1;
+}
+.meetimg{
+  position: relative;
+  z-index: 1;
+  top: 45px;
+
+  left: 42px;
+  width: 18%;
+}
+
+
+
+
+
+
 /* navbar */
 .navbar{
   background-color: #ffb8b8;
