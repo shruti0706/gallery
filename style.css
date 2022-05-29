@@ -15,15 +15,17 @@ body{
 }
 
 .section{
-  height: 100vh;
-  width: 100wh;
+  height: 90vh;
+  width: 900wh;
 }
 .art-wall{
-  background-image: url(/images/ritu/r1.jpeg);
+
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .aw-outer{
   background-color: rgba(240, 248, 255, 0.541);
 height:50% ;
@@ -51,7 +53,19 @@ box-shadow:  7px 7px 14px #606366,
 box-shadow: inset 7px 7px 14px #66541e,
           inset -7px -7px 14px #ffff76;
 }
-
+.ma-bgimg{
+  background-image: url(/images/bg.jpeg);
+  background-attachment: fixed;
+  background-size: contain;
+ 
+ background-color: #d1d1d125;
+  
+}
+.ma-tint{
+  height: 100%;
+  width: 100%;
+  background-color: #d1d1d1a1;
+}
 /* navbar */
 .navbar{
   background-color: #ffb8b8;
