@@ -14,17 +14,17 @@ body{
     margin: 5%;
 }
 
+
 .section{
   height: 90vh;
   width: 900wh;
 }
 .art-wall{
-
-
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 
 .aw-outer{
   background-color: rgba(240, 248, 255, 0.541);
@@ -52,21 +52,62 @@ box-shadow:  7px 7px 14px #606366,
   background: linear-gradient(145deg, #e6bd43, #ffe14f);
 box-shadow: inset 7px 7px 14px #66541e,
           inset -7px -7px 14px #ffff76;
-}
+
+        }
+
+/* Meet the artists */
+
+
 .ma-bgimg{
-  background-image: url(/images/bg.jpeg);
+  background-image: url(images/bg.jpeg);
   background-attachment: fixed;
   background-size: contain;
- justify-content: center;
- align-items: center;
- display: flex;
-margin-bottom: 5%;
-  
+  justify-content: center;
+align-items: center;
+display: flex;
+ background-color: #d1d1d125;
+
 }
 .ma-tint{
-  
+  height: 70%;
+  width: 70%;
   background-color: #d1d1d1a1;
 }
+.ma-h2{ 
+  position: relative;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+    color:rgb(37, 58, 58);
+  }
+.meetimg-left{
+  position: relative;
+  padding-left: 20%;
+  padding-right: 10%;
+  z-index: 1;
+  top: 45px;
+/* margin: 20px 30px ; */
+  left: 42px;
+  width: 18%;
+  
+}
+.meetimg-right{
+  
+  position: relative;
+  padding-right: 20%;
+  z-index: 1;
+  top: 45px;
+/* margin: 20px 30px ; */
+  left: 42px;
+  width: 18%;
+  
+}
+
+
+
+
+
+
 /* navbar */
 .navbar{
   background-color: #ffb8b8;
