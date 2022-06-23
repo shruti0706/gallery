@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Jost', sans-serif;
     /* background-color: rgb(202, 203, 204); */
     margin:0;
 }
@@ -57,13 +57,14 @@ box-shadow: inset 7px 7px 14px #66541e,
   background-image: url(/images/bg.jpeg);
   background-attachment: fixed;
   background-size: contain;
- 
- background-color: #d1d1d125;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+margin-bottom: 5%;
   
 }
 .ma-tint{
-  height: 100%;
-  width: 100%;
+  
   background-color: #d1d1d1a1;
 }
 /* navbar */
@@ -94,6 +95,7 @@ padding-bottom: 3%;
 }
 
 .footer{
+  
 text-align: center;
 color: #fff;
 background-color: #000000;
