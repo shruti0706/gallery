@@ -4,7 +4,7 @@ body{
     margin:0;
 }
 .header{
-  background-image: url(/images/sarthak/s3.jpg);
+  background-image: url(/images/headerbg.png);
   background-repeat: no-repeat;
 }
 .h-title{
@@ -16,13 +16,14 @@ body{
 
 
 .section{
-  height: 90vh;
+  height: 100vh;
   width: 900wh;
 }
 .art-wall{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #5a5659;
 }
 
 
@@ -47,7 +48,7 @@ box-shadow:  7px 7px 14px #606366,
   align-items: center;
   display: flex;
 }
-.aw-outer :active{
+#bt :active{
   border-radius: 13px;
   background: linear-gradient(145deg, #e6bd43, #ffe14f);
 box-shadow: inset 7px 7px 14px #66541e,
