@@ -13,14 +13,21 @@ body{
   height: 100vh;
   background-attachment: fixed;
 }
-.h-title{
-    display: flex;
+.h-title{   
+  display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding:2% 5%;
+  
 }
-
-
+.h-title a{
+  text-decoration: none;
+  color: #000000;
+}
+#h-fix{
+  position: fixed;
+  width: 100vw;
+}
 
 .art-wall{
   display: flex;
@@ -107,11 +114,6 @@ display: flex;
   
 }
 
-
-
-
-
-
 /* navbar */
 .navbar{
   background-color: #ffb8b8;
@@ -140,7 +142,6 @@ padding-bottom: 3%;
 }
 
 .footer{
-  
 text-align: center;
 color: #fff;
 background-color: #000000;
