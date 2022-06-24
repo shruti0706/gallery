@@ -1,2 +1,9 @@
 # gallery-1
-https://www.figma.com/proto/KWZ8Bg1EuHNd3yiQ2wQSlQ/web-proj?node-id=1%3A2&scaling=scale-down&page-id=0%3A1
+tasks
+1. artist page
+2. art wall
+3. art page
+4. menu view
+5. artwall section
+6. admin panel
+
