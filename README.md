@@ -9,4 +9,4 @@ or
 
 just send the repo that has code of your issue
 
-live here: https://pratikrati.netlify.app/
+live here: https://srijana.netlify.app/
